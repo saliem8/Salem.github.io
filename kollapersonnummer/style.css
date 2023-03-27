@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.maindiv{
+    background-color: darkolivegreen;
+    
+    border-radius: 1.5em;
+
+    
+    margin: auto;
+    width: 400px;
+    padding: 1.5em;
+      
+}
