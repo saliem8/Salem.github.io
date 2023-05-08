@@ -1,0 +1,138 @@
+
+body{
+  background-color: black;
+  color: white;
+}
+h1{
+  color: #521b37;
+  text-shadow: 0 0 4px white;
+}
+
+h4{
+  font: 20px Arial, sans-serif;
+}
+p.blocktext{
+  margin-left:20% ;
+  margin-right:20% ;
+  
+}
+p{
+  color: bisque;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: rgb(75, 75, 75);
+  width:710px;
+  height: 400px;
+  margin: 15px;
+  border-radius:10px;
+  padding: 5px;
+  
+}
+
+
+.stitched{
+  width:230px;
+  padding: 5px;
+  color: black;
+  float: right;
+  background-color: goldenrod;
+  font-size:10;
+  border: 1.8px dashed white;
+  border-radius: 5px;
+  box-shadow: 0 0 0 4px goldenrod, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  
+} 
+
+ul {
+  background-color: gold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  
+}
+
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: left;
+  padding: 15px 45px;
+  
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: greenyellow;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(148, 141, 105);
+  min-width: 150px;
+
+}
+
+.dropdown-content a {
+  padding: 10px ;
+  text-align: center;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ac7016;}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a:visited {
+  color: rgb(233, 10, 159);
+  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color:black;
+  padding: 4px;
+  
+  
+}
+.grid-item {
+  font-size: 15px;
+  text-align: center;    
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;  
+  height: 400px;
+  
+}
+
+th {
+   background-color: rgb(95, 88, 88);
+   color: rgb(238, 216, 216);
+   
+}
+tr:nth-child(even) {
+   background-color: #792e53;
+   color: thistle;
+}
+tr:nth-child(odd){
+   background-color:rgb(139, 118, 118);
+   color: thistle;
+}
+

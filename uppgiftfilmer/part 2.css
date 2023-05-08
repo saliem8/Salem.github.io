@@ -1,0 +1,63 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.flex-container > div{
+    background-color:black;
+    width:280px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+ul{
+    list-style-type: circle;
+    color: white;
+}
+a:visited {
+    color: rgb(253, 122, 209);
+    font-size: 19px;
+}
+
+body{
+    color: white;
+    background-color: black;
+    
+}
+.GFG {
+    columns: 2;
+}
+p.blocktext{
+    margin-left:10% ;
+    margin-right:5% ;
+    color: white;
+  }
+  #resize{
+      margin-left: 40%;
+      margin-right: 40%;
+      border-radius: 75px;
+  }
+  
+#speech-bubble {
+    width: 150px; 
+    height: 90px; 
+    background: goldenrod;
+    color: white;
+    position: absolute; 
+    margin: -300px 900px;
+   }
+   
+
+ #speech-bubble:before {
+    content:"";
+    position: absolute;
+    border-top: 15px solid transparent;
+    border-right: 25px solid goldenrod;
+    border-bottom: 15px solid transparent;
+    margin: 15px 0 0 -25px;
+     
+ }
