@@ -1,3 +1,11 @@
-background{
-    color: rgb(163, 18, 176);
-}
+#text {
+    position: absolute;
+    left: 539px;
+    top: 431px;
+    width: 592px;
+    height: 216px;
+    color: #7c3475;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: 400;
+  }
